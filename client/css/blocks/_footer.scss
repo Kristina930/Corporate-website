@@ -1,0 +1,66 @@
+.footer_narrow{
+    background: url(../img/bg_copy_5_19675.png)0 0 no-repeat;
+    background-size: 100%;
+    height: 312px;
+}
+.footer_text_socials{
+    text-align: center;
+    padding-top: 99px;
+
+}
+.footer_text_foolow{
+    opacity: 0.8;
+    font-family: $text-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: $main-white;
+}
+.footer_socials_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    align-items: center;
+}
+.footer_socials{
+    width: 46px;
+    height: 40px;
+    opacity: 0.19;
+    background-color: $main-light-gray;
+    margin-right: 10px;
+    cursor: $pointer-cursor;
+}
+.footer_socials:hover{
+    width: 46px;
+    height: 40px;
+    opacity: 0.91;
+    background-color: $main-blue-background;
+}
+.i_socials{
+    text-decoration: none;
+    font-family: 'Font Awesome';
+    font-size: $i-font-size;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: $main-white;
+}
+.i_socials:hover{
+    font-family: 'Font Awesome';
+    font-size: $i-font-size;
+    line-height: 49px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: $main-black;
+}
+.footer_text_copyrig{
+    opacity: 0.4;
+    font-family: $text-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: $main-white;
+    margin-top: 43px;
+}

@@ -1,0 +1,103 @@
+.header{
+    height: 806px;
+    opacity: 0.98;
+    background-color: #eff0f2;
+}
+.list_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 65px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 78px;
+}
+.dropbtn {
+    border: none;
+    cursor: $pointer-cursor;
+}
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #e1e1e4;
+    min-width: 200px;
+    min-height: 150px;
+    box-shadow: 3px 7px 11px 0px rgba(20,20,21,0.05);
+    z-index: 1;
+    padding: 10px 5px;
+}
+.dropdown_content_a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    opacity: 0.8;
+    font-size: $p-font-size;
+    font-family: $text-font-family;
+    padding-bottom: 25px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.dropdown_content_a:hover {
+    background-color: #ddd
+}
+.show {
+    display:block;
+}
+.header-text{
+    text-align: center;
+    margin-top: 150px;
+}
+.header-text-h1{
+    font-family: $h-font-family;
+    font-size: $h-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-shadow: 4px 8px 10px rgba(0,0,0,0.23);
+    color: $main-grey;
+}
+.header-text-span:hover{
+    width: 255px;
+    height: 54px;
+    background-color: $main-blue-background;
+}
+.header-text-span{
+    padding: 5px 10px;
+}
+.header-button{
+    margin-top: 136px;
+    margin-left: 451px;
+    width: 232px;
+    height: 53px;
+    opacity: $text-opacity;
+    border: $main-black-border;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-family: $h-font-family;
+    font-size: $p-font-size;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    cursor: $pointer-cursor;
+}
+.header-button_a{
+    text-decoration: none;
+    color:  $main-black;
+}
+.header-button:hover{
+    transform: scale(1.1);
+}
+.header-img{
+    width: 82px;
+    height: 82px;
+    background-color: $main-white;
+    padding: 6px 6px;
+    margin-left: 895px;
+    margin-top: -20px;
+}
