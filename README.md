@@ -1,4 +1,4 @@
-# **Pet-проект "Shopno-one-page"**
+# **Pet-проект "Corporate website"**
 
 ### Проект корпоративного сайта
 ___
